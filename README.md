@@ -1,5 +1,4 @@
-
-#𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗙𝗶𝗹𝗲 𝗦𝗵𝗮𝗿𝗶𝗻𝗴 𝗦𝘆𝘀𝘁𝗲𝗺 — 𝗟𝗦𝗣 𝗖𝗮𝗽𝘀𝘁𝗼𝗻𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 🛡️
+🛡️NETWORK FILE SHARING SYSTEM -LSP CAPSTONE PROJECT
 
 𝗔𝘂𝘁𝗵𝗼𝗿: Subhrajit Nayak
 
