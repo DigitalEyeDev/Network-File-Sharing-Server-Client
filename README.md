@@ -1,4 +1,4 @@
-🛡️NETWORK FILE SHARING SYSTEM -LSP CAPSTONE PROJECT
+🛡️𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗙𝗜𝗟𝗘 𝗦𝗛𝗔𝗥𝗜𝗡𝗚 𝗦𝗬𝗦𝗧𝗘𝗠 -𝗟𝗦𝗣 𝗖𝗔𝗣𝗦𝗧𝗢𝗡𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧
 
 𝗔𝘂𝘁𝗵𝗼𝗿: Subhrajit Nayak
 
@@ -17,29 +17,24 @@ Design and implement a dependable and secure file transfer system that allows mu
 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐋𝐨𝐠 (𝐃𝐚𝐲-𝐛𝐲-𝐝𝐚𝐲)
 ----------------------------------------------------------------------------------------------------------------------------------------
 Day 1️⃣ — Socket connection baseline
-
-      •Set up a TCP server and client in Python.
-      •Confirmed basic request/response messaging works end-to-end.
+ •Set up a TCP server and client in Python.
+ •Confirmed basic request/response messaging works end-to-end.
 
 Day 2️⃣ — Directory listing & selection
-
-      •Implemented server-side directory enumeration.
-      •Client can request the file list and choose an item to download.
+ •Implemented server-side directory enumeration.
+ •Client can request the file list and choose an item to download.
 
 Day 3️⃣ — Download capability
-
-      •Added download handling on the server and client.
-      •Verified file integrity and correct saving to the client downloads/ folder.
+ •Added download handling on the server and client.
+ •Verified file integrity and correct saving to the client downloads/ folder.
 
 Day 4️⃣ — Upload capability
-
-      •Implemented client → server upload path.
-      •Added server-side storage under received_uploads/ and success acknowledgements.
+ •Implemented client → server upload path.
+ •Added server-side storage under received_uploads/ and success acknowledgements.
 
 Day 5️⃣ — Authentication & encryption
-
-      •Added simple username/password authentication handshake.
-      •Wrapped sockets with TLS using OpenSSL-generated certificates to encrypt all traffic.
+ •Added simple username/password authentication handshake.
+ •Wrapped sockets with TLS using OpenSSL-generated certificates to encrypt all traffic.
 
 ## ⚙️ Technologies Used
 
