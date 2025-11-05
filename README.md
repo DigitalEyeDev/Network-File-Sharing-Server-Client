@@ -41,8 +41,8 @@ Design and implement a dependable and secure file transfer system that allows mu
 | Component | Technology |
 | :--- | :--- |
 | **Language** | Python 3 |
-| **OS** | Ubuntu (WSL2 on Windows) |
+| **Platform** | Ubuntu (WSL2 on Windows) |
 | **Networking** | TCP Sockets |
-| **Security** | SSL (OpenSSL Certificates) |
-| **Tools** | nano, openssl, python3 |
+| **Security** | SSL/TLS via OpenSSL certificates (ssl module) |
+| **Utilities** | nano, openssl, python3 |
 
