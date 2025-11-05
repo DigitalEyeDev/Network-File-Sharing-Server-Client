@@ -1,4 +1,4 @@
-🛡️ 𝐒𝐞𝐜𝐮𝐫𝐞 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐅𝐢𝐥𝐞 𝐒𝐡𝐚𝐫𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐋𝐒𝐏 𝐂𝐚𝐩𝐬𝐭𝐨𝐧𝐞 𝐏𝐫𝐨𝐣𝐞𝐜𝐭)
+🛡️ Network File Sharing System — LSP Capstone Project   
 
 Author: Subhrajit Nayak
 
@@ -18,28 +18,28 @@ Design and implement a dependable and secure file transfer system that allows mu
 ----------------------------------------------------------------------------------------------------------------------------------------
 Day 1️⃣ — Socket connection baseline
 
-   •Set up a TCP server and client in Python.
-   •Confirmed basic request/response messaging works end-to-end.
+      •Set up a TCP server and client in Python.
+      •Confirmed basic request/response messaging works end-to-end.
 
 Day 2️⃣ — Directory listing & selection
 
-   •Implemented server-side directory enumeration.
-   •Client can request the file list and choose an item to download.
+      •Implemented server-side directory enumeration.
+      •Client can request the file list and choose an item to download.
 
 Day 3️⃣ — Download capability
 
-   •Added download handling on the server and client.
-   •Verified file integrity and correct saving to the client downloads/ folder.
+      •Added download handling on the server and client.
+      •Verified file integrity and correct saving to the client downloads/ folder.
 
 Day 4️⃣ — Upload capability
 
-   •Implemented client → server upload path.
-   •Added server-side storage under received_uploads/ and success acknowledgements.
+      •Implemented client → server upload path.
+      •Added server-side storage under received_uploads/ and success acknowledgements.
 
 Day 5️⃣ — Authentication & encryption
 
-   •Added simple username/password authentication handshake.
-   •Wrapped sockets with TLS using OpenSSL-generated certificates to encrypt all traffic.
+      •Added simple username/password authentication handshake.
+      •Wrapped sockets with TLS using OpenSSL-generated certificates to encrypt all traffic.
 
 ## ⚙️ Technologies Used
 
