@@ -36,7 +36,7 @@ Design and implement a dependable and secure file transfer system that allows mu
 * Added simple username/password authentication handshake.
 * Wrapped sockets with TLS using OpenSSL-generated certificates to encrypt all traffic.
 
-## ⚙️ Technologies Used
+## ⚙️ Technologies & Tools
 
 | Component | Technology |
 | :--- | :--- |
