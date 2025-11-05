@@ -1,16 +1,17 @@
-🛡️ Network File Sharing System — LSP Capstone Project   
 
-Author: Subhrajit Nayak
+                                                  🛡️𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗙𝗶𝗹𝗲 𝗦𝗵𝗮𝗿𝗶𝗻𝗴 𝗦𝘆𝘀𝘁𝗲𝗺 — 𝗟𝗦𝗣 𝗖𝗮𝗽𝘀𝘁𝗼𝗻𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁
 
-Course: Linux System Programming (LSP)
+𝗔𝘂𝘁𝗵𝗼𝗿: Subhrajit Nayak
 
-Institute: SOA - ITER
+𝗖𝗼𝘂𝗿𝘀𝗲: Linux System Programming (LSP)
+
+𝗜𝗻𝘀𝘁𝗶𝘁𝘂𝘁𝗲: SOA - ITER
 
 Project Summary📝
 ----------------------------------------------------------------------------------------------------------------------------------------
 This project implements a secure Network File Sharing System using a client–server architecture built with Python sockets on a Linux environment (WSL2 / Ubuntu). The application supports listing, downloading, and uploading files between the client and server. Security features include user authentication and encrypted communication via SSL.
 
-Goal🎯
+Goal📝
 ----------------------------------------------------------------------------------------------------------------------------------------
 Design and implement a dependable and secure file transfer system that allows multiple clients to connect to a server and exchange files safely using TCP sockets and SSL encryption.
 
