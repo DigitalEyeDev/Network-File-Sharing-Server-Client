@@ -109,6 +109,7 @@ Auth received: 'AUTH student password123\n'
 Command: UPLOAD test_upload.txt
 [+] Stored upload as received_uploads/test_upload.txt (24 bytes)
 ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Protocol Overview ###
 
@@ -122,3 +123,23 @@ The client and server exchange simple textual commands. The key commands are:
 Implementation accounts for TCP stream behavior (headers/data may arrive combined), so parsing handles merged messages and partial reads.
 
 **Chunking**: File content is transferred in chunks (default `CHUNK_SIZE = 4096`) to support large files without loading whole files into memory.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Implementation Notes & Best Practices ###
+
+* Always read the declared `SIZE` and loop until all bytes are received — never rely on a single recv() call.
+* Use SSL context with `ssl.PROTOCOL_TLS_SERVER / ssl.PROTOCOL_TLS_CLIENT` and verify certificates as needed.
+* Keep server private keys (e.g., `server_key.pem`) out of version control — add them to `.gitignore`.
+* Store uploaded files in a dedicated directory (`received_uploads/`) and downloads in `downloads/`.
+* Validate filenames to prevent path traversal (e.g., strip .. and absolute path characters).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Testing Checklist (Before Submission) ###
+
+Ensure each of the following passes:
+* `server.py` starts and runs without throwing exceptions.
+* `client.py` connects to the server and completes authentication.
+* Download a server file; verify the file content in `downloads/`.
+* Upload a local file; verify it appears correctly in `received_uploads/`.
+* Confirm `server_key.pem` or any private keys are not in the repository.
