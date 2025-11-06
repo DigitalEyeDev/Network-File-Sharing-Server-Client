@@ -76,3 +76,7 @@ Enter password: password
 ```bash
 Authentication successful
 ```
+
+**Available client options:**
+
+1️⃣List 2️⃣Download 3️⃣Upload 4️⃣Quit
