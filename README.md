@@ -13,6 +13,7 @@ This project implements a secure Network File Sharing System using a client–se
 Goal📝
 ----------------------------------------------------------------------------------------------------------------------------------------
 Design and implement a dependable and secure file transfer system that allows multiple clients to connect to a server and exchange files safely using TCP sockets and SSL encryption.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐋𝐨𝐠 (𝐃𝐚𝐲-𝐛𝐲-𝐝𝐚𝐲)
 
