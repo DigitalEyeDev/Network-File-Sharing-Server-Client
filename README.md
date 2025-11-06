@@ -83,6 +83,7 @@ Authentication successful
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Example Terminal Sessions ###
+
 **Client — downloading a file**
 
 ```vbnet
@@ -100,4 +101,11 @@ Downloading... 15/15 bytes (100.0%)
 Saved to downloads/fileA.txt (15 bytes)
 Server: BYE
 ```
-
+**Server — upload accepted**
+```pgsql
+[+] Incoming TLS connection from ('127.0.0.1', 52344)
+Auth received: 'AUTH student password123\n'
+[+] TLS session established with ('127.0.0.1', 52344)
+Command: UPLOAD test_upload.txt
+[+] Stored upload as received_uploads/test_upload.txt (24 bytes)
+```
