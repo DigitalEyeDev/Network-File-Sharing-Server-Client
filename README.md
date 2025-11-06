@@ -143,3 +143,18 @@ Ensure each of the following passes:
 * Download a server file; verify the file content in `downloads/`.
 * Upload a local file; verify it appears correctly in `received_uploads/`.
 * Confirm `server_key.pem` or any private keys are not in the repository.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Final Remarks ###
+
+In conclusion, this capstone project successfully demonstrates the design and implementation of a `secure Network File Sharing System` using Python and Linux socket programming.
+It replicates real-world client–server operations, ensuring `confidential, authenticated, and reliable file exchanges` over TCP through the use of SSL encryption.
+
+The work has contributed significantly to our understanding of:
+
+* Linux-based networking fundamentals,
+* Socket-level programming and protocol design,
+* Client–server communication models, and
+* Secure data transmission techniques.
+
+This project has substantially strengthened our `practical grasp of Linux System Programming concepts` and enhanced our `collaborative development experience`.
