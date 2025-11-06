@@ -11,7 +11,7 @@ Project Summary📝
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project implements a secure Network File Sharing System using a client–server architecture built with Python sockets on a Linux environment (WSL2 / Ubuntu). The application supports listing, downloading, and uploading files between the client and server. Security features include user authentication and encrypted communication via SSL.
 
-Goal📝
+Goal
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Design and implement a dependable and secure file transfer system that allows multiple clients to connect to a server and exchange files safely using TCP sockets and SSL encryption.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
