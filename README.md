@@ -51,6 +51,6 @@ Design and implement a dependable and secure file transfer system that allows mu
 *Open two terminals (server and client) on your Ubuntu/WSL2 instance:*
 
 **Server terminal**
-            cd network-file-sharing
-            python3 server.py
+                                                       cd network-file-sharing
+                                                       python3 server.py
 
