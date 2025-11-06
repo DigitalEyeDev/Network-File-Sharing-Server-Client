@@ -109,3 +109,16 @@ Auth received: 'AUTH student password123\n'
 Command: UPLOAD test_upload.txt
 [+] Stored upload as received_uploads/test_upload.txt (24 bytes)
 ```
+
+### Protocol Overview ###
+
+The client and server exchange simple textual commands. The key commands are:
+   •AUTH <username> <password> — initial authentication handshake.
+   •LIST — server responds with file1|file2|....
+   •DOWNLOAD <filename> — server replies SIZE <N> then sends N bytes.
+   •UPLOAD <filename> — client sends SIZE <N> then N bytes.
+   •QUIT — close connection.
+
+Implementation accounts for TCP stream behavior (headers/data may arrive combined), so parsing handles merged messages and partial reads.
+
+**Chunking**: File content is transferred in chunks (default CHUNK_SIZE = 4096) to support large files without loading whole files into memory.
