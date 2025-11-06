@@ -58,8 +58,9 @@ cd network-file-sharing
 python3 server.py
 
 
-**`### Client terminal`**
+### Client terminal
 
 ```bash
 cd network-file-sharing
 python3 client.py
+```
