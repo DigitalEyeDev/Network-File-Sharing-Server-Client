@@ -59,7 +59,7 @@ python3 server.py
 
 ### Client terminal
 
----bash
+```bash
 cd network-file-sharing
 python3 client.py
 
