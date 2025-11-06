@@ -22,7 +22,7 @@ Design and implement a dependable and secure file transfer system that allows mu
 
 **📒Day 2 — Directory listing & selection**
 * Implemented server-side directory enumeration.
-* Client can request the file list and choose an item to download.
+* Client can request the file list and choose an item to download.-
 
 **📤Day 3 — Download capability**
 * Added download handling on the server and client.
@@ -45,13 +45,12 @@ Design and implement a dependable and secure file transfer system that allows mu
 | **Networking** | TCP Sockets |
 | **Security** | SSL/TLS via OpenSSL certificates (ssl module) |
 | **Utilities** | nano, openssl, python3 |
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **How to Run**
-
-Open two terminals (server and client) on your Ubuntu/WSL2 instance:
+*Open two terminals (server and client) on your Ubuntu/WSL2 instance:*
 
 **Server terminal**
-    cd network-file-sharing
-    python3 server.py
+            cd network-file-sharing
+            python3 server.py
 
