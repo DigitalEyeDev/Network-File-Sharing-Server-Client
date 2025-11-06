@@ -80,3 +80,24 @@ Authentication successful
 **Available client options:**
 
 1️⃣List 2️⃣Download 3️⃣Upload 4️⃣Quit
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Example Terminal Sessions ###
+**Client — downloading a file**
+
+```vbnet
+Connected to server using TLS.
+Username: student
+Password: ****
+Authentication successful.
+Menu: (1) LIST (2) DOWNLOAD (3) UPLOAD (4) QUIT
+Choice: 2
+Files available:
+1. fileA.txt
+Enter filename to DOWNLOAD: fileA.txt
+Server: SIZE 15
+Downloading... 15/15 bytes (100.0%)
+Saved to downloads/fileA.txt (15 bytes)
+Server: BYE
+```
+
