@@ -56,11 +56,23 @@ Open two terminals (server and client) on your Ubuntu/WSL2 instance:
 ```bash
 cd network-file-sharing
 python3 server.py
-
+```
 
 ### Client terminal
 
 ```bash
 cd network-file-sharing
 python3 client.py
+```
+
+### When prompted on the client:
+```bash
+Enter username: admin
+Enter password: password
+```
+
+### On success you should see:
+
+```bash
+Authentication successful
 ```
