@@ -113,11 +113,11 @@ Command: UPLOAD test_upload.txt
 ### Protocol Overview ###
 
 The client and server exchange simple textual commands. The key commands are:
-   *•AUTH <username> <password> — initial authentication handshake.
-   *•LIST — server responds with file1|file2|....
-   *•DOWNLOAD <filename> — server replies SIZE <N> then sends N bytes.
-   *•UPLOAD <filename> — client sends SIZE <N> then N bytes.
-   *•QUIT — close connection.
+   * •AUTH <username> <password> — initial authentication handshake.
+   * •LIST — server responds with file1|file2|....
+   * •DOWNLOAD <filename> — server replies SIZE <N> then sends N bytes.
+   * •UPLOAD <filename> — client sends SIZE <N> then N bytes.
+   * •QUIT — close connection.
 
 Implementation accounts for TCP stream behavior (headers/data may arrive combined), so parsing handles merged messages and partial reads.
 
