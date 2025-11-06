@@ -47,10 +47,12 @@ Design and implement a dependable and secure file transfer system that allows mu
 | **Utilities** | nano, openssl, python3 |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**How to Run**
-*Open two terminals (server and client) on your Ubuntu/WSL2 instance:*
+## How to Run
 
-**Server terminal**
-                                                       cd network-file-sharing
-                                                       python3 server.py
+Open two terminals (server and client) on your Ubuntu/WSL2 instance:
 
+### Server terminal
+
+```bash
+cd network-file-sharing
+python3 server.py
