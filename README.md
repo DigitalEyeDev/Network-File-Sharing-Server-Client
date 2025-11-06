@@ -1,4 +1,4 @@
-🛡️𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗙𝗜𝗟𝗘 𝗦𝗛𝗔𝗥𝗜𝗡𝗚 𝗦𝗬𝗦𝗧𝗘𝗠 -𝗟𝗦𝗣 𝗖𝗔𝗣𝗦𝗧𝗢𝗡𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧
+**🛡️𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗙𝗜𝗟𝗘 𝗦𝗛𝗔𝗥𝗜𝗡𝗚 𝗦𝗬𝗦𝗧𝗘𝗠 -𝗟𝗦𝗣 𝗖𝗔𝗣𝗦𝗧𝗢𝗡𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧**
 
 𝗔𝘂𝘁𝗵𝗼𝗿: Subhrajit Nayak
 
@@ -45,4 +45,5 @@ Design and implement a dependable and secure file transfer system that allows mu
 | **Networking** | TCP Sockets |
 | **Security** | SSL/TLS via OpenSSL certificates (ssl module) |
 | **Utilities** | nano, openssl, python3 |
+
 
