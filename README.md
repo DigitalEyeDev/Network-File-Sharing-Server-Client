@@ -69,7 +69,7 @@ python3 client.py
 
 ### When prompted on the client:
 ```bash
-Enter username: admin
+Enter username: student
 Enter password: password
 ```
 
